@@ -5,7 +5,7 @@ namespace Tyuiu.ZubkovaMG.Sprint1.Task1.V28.Lib
     {
         public double Calculate(double x)
         {
-            return Math.Round((x * 2) / (1 + x));
+            return ((x * 2) / (1 + x));
         }
     }
 }
